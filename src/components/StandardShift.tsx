@@ -135,7 +135,7 @@ const StandardShift = ({ visible }: { visible: boolean }) => {
 
   return visible ? (
     <div className="w-full space-y-6">
-      <div className="px-5 sm:px-32">
+      <div className="sm:px-32">
         <ProgressArc
           progress={progress}
           breaks={state.breaks}
