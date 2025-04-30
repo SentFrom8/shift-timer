@@ -248,7 +248,7 @@ const FlexibleShift = ({ visible }: { visible: boolean }) => {
             }
             className="w-full bg-neutral-700 text-white p-2 rounded"
             min="0"
-            step="0.01"
+            step="0.1"
           />
           <span className="text-red-400 absolute left-0 top-[100%]">
             {state.errors["hourlyRate"]?._errors[0]}
